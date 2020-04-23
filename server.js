@@ -18,7 +18,7 @@ server.use('/api', authenticator,  UsersRouter);
 
 
 server.get("/", (req, res) => {
-    res.json({ api: "up" });
+    res.json({ api: "up!" });
   });
   
 
